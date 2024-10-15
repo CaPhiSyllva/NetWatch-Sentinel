@@ -1,0 +1,13 @@
+2024-10-14 10:08:12.357 [info] Started local extension host with pid 278521.
+2024-10-14 10:08:15.239 [info] [perf] Render performance baseline is 29ms
+2024-10-14 10:09:26.041 [error] Failed to move 'core' to the trash (Failed to move item to trash): Unknown (FileSystemError): Failed to move 'core' to the trash (Failed to move item to trash)
+    at Hv.create (file:///usr/share/codium/resources/app/out/vs/code/electron-main/main.js:38:31042)
+    at ai (file:///usr/share/codium/resources/app/out/vs/code/electron-main/main.js:38:31149)
+    at v_.delete (file:///usr/share/codium/resources/app/out/vs/code/electron-main/main.js:49:32467)
+2024-10-14 10:09:28.967 [error] Unable to delete non-empty folder '/home/enygma/Documentos/NetWatch-Sentinel/src'.: Error: Unable to delete non-empty folder '/home/enygma/Documentos/NetWatch-Sentinel/src'.
+    at qit.doValidateDelete (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:102036)
+    at async qit.canDelete (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:101359)
+    at async NPe.delete (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:521:11185)
+    at async KY.perform (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2070:11440)
+    at async Qvs._reverse (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2070:12032)
+    at async Qvs.undo (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2070:11908)

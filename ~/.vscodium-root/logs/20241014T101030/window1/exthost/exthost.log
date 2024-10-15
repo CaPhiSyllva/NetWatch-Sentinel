@@ -1,0 +1,89 @@
+2024-10-14 10:10:32.238 [info] Extension host with pid 279014 started
+2024-10-14 10:10:32.238 [info] Skipping acquiring lock for /home/enygma/Documentos/NetWatch-Sentinel/~/.vscodium-root/User/workspaceStorage/5212974d4d23dc52cff1a8505a5cfaf5.
+2024-10-14 10:10:32.272 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-14 10:10:32.292 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-14 10:10:32.387 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-14 10:10:32.474 [info] Eager extensions activated
+2024-10-14 10:10:32.554 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-14 10:10:32.560 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-14 10:10:32.582 [info] ExtensionService#_doActivateExtension miguelsolorio.symbols, startup: false, activationEvent: 'onStartupFinished'
+2024-10-14 10:10:32.663 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-14 10:10:32.711 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-10-14 10:11:21.339 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-14 10:11:21.355 [error] Canceled: Canceled
+	at new eR (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:116724)
+	at Kw._remoteCall (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:123020)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:119779)
+	at A_._doExecuteCommand (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38463)
+	at A_.executeCommand (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37899)
+	at r.registerCommand.description (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37163)
+	at A_._executeContributedCommand (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:39032)
+	at A_._doExecuteCommand (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38032)
+	at A_.executeCommand (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37899)
+	at Object.executeCommand (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:41956)
+	at gh.O [as value] (/usr/share/codium/resources/app/extensions/git/dist/main.js:2:952983)
+	at A._deliver (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:895)
+	at A._deliverQueue (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:986)
+	at A.fire (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1322)
+	at Object.p [as dispose] (/usr/share/codium/resources/app/extensions/git/dist/main.js:2:973561)
+	at /usr/share/codium/resources/app/extensions/git/dist/main.js:2:979683
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/share/codium/resources/app/extensions/git/dist/main.js:2:979669)
+	at Pv.<anonymous> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21457)
+	at Pv.dispose (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21553)
+	at Pv.<anonymous> (/usr/share/codium/resources/app/extensions/git/dist/main.js:2:955281)
+	at Pv.dispose (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21553)
+	at xi (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:18395
+	at file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2296)
+	at hW._deactivate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14730)
+	at file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12016
+	at Array.map (<anonymous>)
+	at hW._deactivateAll (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12004)
+	at hW.terminate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12357)
+	at MT.terminate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1592)
+	at gs (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:16255)
+	at MessagePortMain.<anonymous> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:12708)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-14 10:11:21.356 [error] Canceled: Canceled
+	at new eR (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:116724)
+	at Kw._remoteCall (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:123020)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:119779)
+	at A_._doExecuteCommand (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38463)
+	at A_.executeCommand (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37899)
+	at r.registerCommand.description (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37163)
+	at A_._executeContributedCommand (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:39032)
+	at A_._doExecuteCommand (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38032)
+	at A_.executeCommand (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37899)
+	at Object.executeCommand (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:41956)
+	at set hasGitHubRepositories (/usr/share/codium/resources/app/extensions/github/dist/extension.js:2:321527)
+	at /usr/share/codium/resources/app/extensions/github/dist/extension.js:2:322486
+	at gh.value (/usr/share/codium/resources/app/extensions/git/dist/main.js:2:1061824)
+	at A._deliver (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:895)
+	at A._deliverQueue (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:986)
+	at A.fire (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1322)
+	at Object.p [as dispose] (/usr/share/codium/resources/app/extensions/git/dist/main.js:2:973561)
+	at /usr/share/codium/resources/app/extensions/git/dist/main.js:2:979683
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/share/codium/resources/app/extensions/git/dist/main.js:2:979669)
+	at Pv.<anonymous> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21457)
+	at Pv.dispose (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21553)
+	at Pv.<anonymous> (/usr/share/codium/resources/app/extensions/git/dist/main.js:2:955281)
+	at Pv.dispose (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21553)
+	at xi (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:18395
+	at file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2296)
+	at hW._deactivate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14730)
+	at file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12016
+	at Array.map (<anonymous>)
+	at hW._deactivateAll (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12004)
+	at hW.terminate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12357)
+	at MT.terminate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1592)
+	at gs (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:16255)
+	at MessagePortMain.<anonymous> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:12708)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-14 10:11:21.356 [info] Extension host with pid 279014 exiting with code 0

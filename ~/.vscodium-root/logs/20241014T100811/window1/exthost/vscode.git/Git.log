@@ -1,0 +1,143 @@
+2024-10-14 10:08:17.200 [info] [main] Log level: Info
+2024-10-14 10:08:17.200 [info] [main] Validating found git in: "git"
+2024-10-14 10:08:17.200 [info] [main] Using git "2.39.5" from "git"
+2024-10-14 10:08:17.200 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-14 10:08:17.200 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-14 10:08:17.201 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-10-14 10:08:17.210 [info] [Model][openRepository] Opened repository: /home/enygma/Documentos/NetWatch-Sentinel
+2024-10-14 10:08:17.225 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-14 10:08:17.225 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-14 10:08:17.226 [info] > git config --get commit.template [8ms]
+2024-10-14 10:08:17.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-10-14 10:08:17.260 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:08:17.261 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-14 10:08:17.270 [info] > git status -z -uall [6ms]
+2024-10-14 10:08:17.271 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-14 10:08:17.288 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-10-14 10:08:17.294 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-10-14 10:08:17.294 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-14 10:08:17.301 [info] > git config --get commit.template [14ms]
+2024-10-14 10:08:17.302 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-10-14 10:08:17.324 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [18ms]
+2024-10-14 10:08:17.349 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [21ms]
+2024-10-14 10:08:17.353 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [30ms]
+2024-10-14 10:08:17.359 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:08:17.360 [info] > git config --local branch.main.vscode-merge-base origin/main [8ms]
+2024-10-14 10:08:17.364 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-10-14 10:08:17.371 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-14 10:08:17.374 [info] > git config --get commit.template [11ms]
+2024-10-14 10:08:17.375 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-10-14 10:08:17.384 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2024-10-14 10:08:17.393 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-10-14 10:08:17.398 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-10-14 10:08:17.402 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:08:17.403 [info] > git diff --name-status -z --diff-filter=ADMR 9c69fab3ce7196be85647e08e30b1683cad3acd7...refs/remotes/origin/main [5ms]
+2024-10-14 10:08:17.403 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-14 10:08:17.410 [info] > git status -z -uall [3ms]
+2024-10-14 10:08:17.411 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-14 10:08:17.739 [info] > git check-ignore -v -z --stdin [3ms]
+2024-10-14 10:08:19.525 [info] > git config --get commit.template [8ms]
+2024-10-14 10:08:19.526 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-14 10:08:19.529 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:08:19.530 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-14 10:08:19.540 [info] > git status -z -uall [7ms]
+2024-10-14 10:08:19.541 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-14 10:08:24.560 [info] > git config --get commit.template [8ms]
+2024-10-14 10:08:24.561 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-14 10:08:24.564 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:08:24.566 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-14 10:08:24.577 [info] > git status -z -uall [6ms]
+2024-10-14 10:08:24.578 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-14 10:08:33.181 [info] > git config --get commit.template [6ms]
+2024-10-14 10:08:33.182 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-14 10:08:33.188 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:08:33.190 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-14 10:08:33.202 [info] > git status -z -uall [6ms]
+2024-10-14 10:08:33.203 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-14 10:08:38.221 [info] > git config --get commit.template [6ms]
+2024-10-14 10:08:38.223 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-14 10:08:38.227 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:08:38.228 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-14 10:08:38.239 [info] > git status -z -uall [6ms]
+2024-10-14 10:08:38.240 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-14 10:08:43.262 [info] > git config --get commit.template [5ms]
+2024-10-14 10:08:43.274 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-14 10:08:43.279 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:08:43.280 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-14 10:08:43.289 [info] > git status -z -uall [4ms]
+2024-10-14 10:08:43.290 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-14 10:08:45.677 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-14 10:08:48.306 [info] > git config --get commit.template [7ms]
+2024-10-14 10:08:48.307 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-14 10:08:48.313 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:08:48.315 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-14 10:08:48.326 [info] > git status -z -uall [5ms]
+2024-10-14 10:08:48.328 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-14 10:08:51.654 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-14 10:08:53.347 [info] > git config --get commit.template [7ms]
+2024-10-14 10:08:53.349 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-14 10:08:53.355 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:08:53.357 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-14 10:08:53.370 [info] > git status -z -uall [7ms]
+2024-10-14 10:08:53.371 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-14 10:08:58.392 [info] > git config --get commit.template [9ms]
+2024-10-14 10:08:58.394 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-14 10:08:58.399 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:08:58.400 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-14 10:08:58.409 [info] > git status -z -uall [5ms]
+2024-10-14 10:08:58.411 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-14 10:09:03.424 [info] > git config --get commit.template [2ms]
+2024-10-14 10:09:03.432 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-14 10:09:03.439 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:09:03.441 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-14 10:09:03.450 [info] > git status -z -uall [6ms]
+2024-10-14 10:09:03.452 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-14 10:09:08.470 [info] > git config --get commit.template [7ms]
+2024-10-14 10:09:08.472 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-14 10:09:08.480 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:09:08.481 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-14 10:09:08.492 [info] > git status -z -uall [6ms]
+2024-10-14 10:09:08.493 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-14 10:09:13.513 [info] > git config --get commit.template [9ms]
+2024-10-14 10:09:13.514 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-14 10:09:13.519 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:09:13.521 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-14 10:09:13.531 [info] > git status -z -uall [6ms]
+2024-10-14 10:09:13.532 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-14 10:09:18.546 [info] > git config --get commit.template [2ms]
+2024-10-14 10:09:18.556 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-14 10:09:18.563 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:09:18.564 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-14 10:09:18.573 [info] > git status -z -uall [5ms]
+2024-10-14 10:09:18.574 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-14 10:09:26.026 [info] > git config --get commit.template [5ms]
+2024-10-14 10:09:26.027 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-14 10:09:26.031 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:09:26.033 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-14 10:09:26.044 [info] > git status -z -uall [5ms]
+2024-10-14 10:09:26.045 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-14 10:09:31.064 [info] > git config --get commit.template [7ms]
+2024-10-14 10:09:31.064 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-14 10:09:31.067 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:09:31.068 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-14 10:09:31.077 [info] > git status -z -uall [4ms]
+2024-10-14 10:09:31.078 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-14 10:09:37.711 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-14 10:09:38.331 [info] > git config --get commit.template [8ms]
+2024-10-14 10:09:38.332 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-14 10:09:38.338 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:09:38.340 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-14 10:09:38.351 [info] > git status -z -uall [5ms]
+2024-10-14 10:09:38.352 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-14 10:09:43.372 [info] > git config --get commit.template [9ms]
+2024-10-14 10:09:43.373 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-14 10:09:43.377 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:09:43.378 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-14 10:09:43.385 [info] > git status -z -uall [4ms]
+2024-10-14 10:09:43.386 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-14 10:09:48.406 [info] > git config --get commit.template [9ms]
+2024-10-14 10:09:48.407 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-14 10:09:48.413 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/enygma/Documentos/NetWatch-Sentinel/.git/refs/remotes/origin/main'
+2024-10-14 10:09:48.415 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-14 10:09:48.424 [info] > git status -z -uall [5ms]
+2024-10-14 10:09:48.424 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
