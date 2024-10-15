@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetWatch XDR - Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f0f0f0;
+        }
+        .card {
+            border-radius: 10px; /* Bordas arredondadas */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 class="text-center">NetWatch XDR Dashboard</h1>
+    <div class="row mt-4">
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Captura de Pacotes</h5>
+                    <p>Status: <strong>{{ data['packet_capture']['status'] }}</strong></p>
+                    <p>Pacotes Capturados: <strong>{{ data['packet_capture']['packets_captured'] }}</strong></p>
+                    <p>Último Captura: <strong>{{ data['packet_capture']['last_capture_time'] }}</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Regras de Firewall</h5>
+                    <ul>
+                        {% for rule in data['firewall_rules'] %}
+                            <li>{{ rule['rule'] }} - Status: {{ rule['status'] }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Inteligência de Ameaças</h5>
+                    <ul>
+                        {% for alert in data['threat_intelligence']['latest_alerts'] %}
+                            <li>{{ alert['source'] }}: {{ alert['threat'] }} ({{ alert['time'] }})</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

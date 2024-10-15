@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./src/config",
+        "./src/interface_adapters/firewall"
+    ]
+}
